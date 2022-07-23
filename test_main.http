@@ -1,0 +1,21 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/yearly/2020
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/monthly/2020/12
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/daily/2021/01/01
+Accept: application/json
+
+###
